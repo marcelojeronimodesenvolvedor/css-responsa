@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 400px;
+
+}
+
+
+
+
+
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+}
+
+h1 {
+    width: 368px;
+    height: 180px;
+    color: #5D5D7D;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    display: inline-block;
+    margin-left: 136px;
+
+}
+
+p {
+    width: 540px;
+    color: #5D5D7D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 171.429% */
+    margin-left: 136px;
+    opacity: 0.6;
+}
+
+.get {
+
+    width: 269px;
+    height: 62px;
+    border-radius: 30px;
+    margin-left: 136px;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    font-size: 24px;
+    background: #9499EA;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+img {
+    position: relative;
+    top: 151px;
+    right: 130px;
+
+
+}
+
+.button-header {
+    margin-left: 41px;
+    margin-bottom: 151px;
+    width: 59px;
+    height: 41px;
+    font-size: 28px;
+    font-weight: 400px;
+    line-height: 41, 5px;
+    color: #5D5D7D;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 40%;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 900px){
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+
+    }
+
+    img {
+        position: static;
+       max-width: 80%;
+        
+    }
+
+.button-header {
+    display: none;
+}
+h1 {
+    font-size: 56px;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+}
+p {
+    margin: 15px 40px;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+.get {
+    margin: auto;
+    display: block;
+}
+}
